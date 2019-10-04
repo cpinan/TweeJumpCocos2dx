@@ -1,7 +1,7 @@
-TweeJumpCocos2dx
+Tweet Jump Cocos 2dx
 ================
 
 Original:
 https://github.com/haqu/tweejump
 
-Remake of Twee Jump created in Cocos2d migrated to Cocos2d-x 2.1.5
+I'm working on this one. Updating it to cocos2dx 3.x
