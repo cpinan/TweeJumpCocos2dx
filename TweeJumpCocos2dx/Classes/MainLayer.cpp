@@ -70,7 +70,7 @@ void MainLayer::resetClouds()
         resetCloud();
         
         CCSpriteBatchNode* batchNode = dynamic_cast<CCSpriteBatchNode*>(getChildByTag(kSpriteManager));
-        CCSprite* cloud = dynamic_cast<CCSprite*>(batchNode->getChildByTag(currentCloudTag));
+        CCSprite* cloud = dynamic_cast<CCSprite*>(ba tchNode->getChildByTag(currentCloudTag));
         CCPoint position = cloud->getPosition();
         position.y -= SCREEN_HEIGHT;
         cloud->setPosition(position);

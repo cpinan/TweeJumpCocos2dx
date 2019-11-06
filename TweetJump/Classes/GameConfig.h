@@ -11,8 +11,6 @@
 #include <ctime>
 #include <cstdlib>
 
-#define RANDOM_SEED() srand(time(0))
-
 #define SCREEN_WIDTH 320
 #define SCREEN_HEIGHT 480
 #define DISPLAY_STATS true
@@ -25,6 +23,9 @@
 
 #define K_MIN_BONUS_STEP 30
 #define K_MAX_BONUS_STEP 50
+
+#define SPRITE_SHEET "sprites.png"
+#define SPRITE_SHEET_SIZE 10
 
 enum {
     kSpriteManager = 0,
