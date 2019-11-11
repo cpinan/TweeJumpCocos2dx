@@ -10,7 +10,7 @@
 
 using namespace cocos2d;
 
-void BaseScene::prepare() {
+BaseScene::BaseScene() {
     arc4random();
     
     auto batchNode = SpriteBatchNode::create(SPRITE_SHEET, SPRITE_SHEET_SIZE);

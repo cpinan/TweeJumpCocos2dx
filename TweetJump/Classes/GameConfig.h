@@ -24,8 +24,15 @@
 #define K_MIN_BONUS_STEP 30
 #define K_MAX_BONUS_STEP 50
 
-#define SPRITE_SHEET "sprites.png"
+#define SPRITE_SHEET "Images/sprites.png"
 #define SPRITE_SHEET_SIZE 10
+#define PLAY_AGAIN "Images/playAgainButton.png"
+#define CHANGE_PLAYER "Images/changePlayerButton.png"
+
+#define ARIAL "fonts/arial.ttf"
+
+#define KEY_HIGHSCORE "highscores"
+#define KEY_PLAYER "player"
 
 enum {
     kSpriteManager = 0,

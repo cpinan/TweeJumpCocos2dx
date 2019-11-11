@@ -13,7 +13,7 @@
 
 class BaseScene : public cocos2d::Scene {
 public:
-    void prepare();
+    BaseScene();
 protected:
     void initCloud();
     void initClouds();
